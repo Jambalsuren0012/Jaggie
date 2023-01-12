@@ -1,5 +1,5 @@
 .Container {
-    width: 1280px;
+    width: 100%;
     min-height: 100vh;
     background-color: rgb(39, 37, 37);
     display: flex;
@@ -14,6 +14,7 @@
     justify-content: center;
     align-items: center;
     color: salmon;
+    z-index: 1000;
      h1 {
       font-size: 50px;
       color: white;

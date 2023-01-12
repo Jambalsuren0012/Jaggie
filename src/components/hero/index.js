@@ -2,12 +2,15 @@ import React from 'react'
 import styles from "./style.module.scss"
 import { Typewriter } from 'react-simple-typewriter'
 import { SocialIcon } from 'react-social-icons';
+import Particle from '../Particle';
   const Hero = () => {
+
     return (
       <div className={styles.Container}>
+        <Particle />
         <div className={styles.HeroItem}>
           <div>
-            <h1>Hello My name is Jambalsuren</h1>
+            <h1>Hi There I'm Jaggie</h1>
             <h1>
               I am the{" "}
               <span style={{ color: "#007FFF" }}>
