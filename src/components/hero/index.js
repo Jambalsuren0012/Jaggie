@@ -21,11 +21,11 @@ import Particle from '../Particle';
               </span>
             </h1>
             <div className={styles.Icons}>
-              <SocialIcon network="twitter" />
-              <SocialIcon network="google" />
-              <SocialIcon network="instagram" />
-              <SocialIcon network="youtube" />
-              <SocialIcon network="facebook" />
+              <SocialIcon network="twitter" url='https://www.facebook.com/'target={"_blank"} />
+              <SocialIcon network="google" url='' target={"_blank"} />
+              <SocialIcon network="instagram"url=''target={"_blank"} />
+              <SocialIcon network="youtube" url=''target={"_blank"}/>
+              <SocialIcon network="facebook" url=''target={"_blank"}/>
             </div>
           </div>
         </div>
