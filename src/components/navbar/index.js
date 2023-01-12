@@ -7,14 +7,24 @@ import styles from "./style.module.scss"
 const NavbarMenu = () => {
   return (
     <div className={styles.Container}>
-        <Navbar bg="dark" variant="dark" className={styles.Navbar}>
-          <Navbar.Brand href="#home">MY-PORTFOLIO</Navbar.Brand>
+       <Navbar style={{zIndex: 1000}} collapseOnSelect expand="lg" bg="dark" variant="dark">
+     
+        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#About">About</Nav.Link>
-            <Nav.Link href="#features">Skills</Nav.Link>
-            <Nav.Link href="#pricing">Contents</Nav.Link>
-        </Nav>
-      </Navbar>
+            
+          </Nav>
+          <Nav>
+            <Nav.Link href="#deets">about</Nav.Link>
+            <Nav.Link href="#deets">about</Nav.Link>
+            <Nav.Link href="#deets">about</Nav.Link>
+            <Nav.Link href="#deets">about</Nav.Link>
+            
+          </Nav>
+        </Navbar.Collapse>
+     
+    </Navbar>
   
     </div>
   )

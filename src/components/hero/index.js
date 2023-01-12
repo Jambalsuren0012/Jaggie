@@ -15,7 +15,7 @@ import Particle from '../Particle';
               I am the{" "}
               <span style={{ color: "#007FFF" }}>
                 <Typewriter
-                  words={["React Developer", "UI Designer", "Software Engineer"]}
+                  words={["Software Engineer", "Developer", "Web Designer"]}
                   loop={false}
                 />
               </span>
