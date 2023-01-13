@@ -6,7 +6,7 @@ import Particle from '../Particle';
   const Hero = () => {
 
     return (
-      <div className={styles.Container}>
+      <div id='About' className={styles.Container}>
         <Particle />
         <div className={styles.HeroItem}>
           <div>
@@ -21,11 +21,11 @@ import Particle from '../Particle';
               </span>
             </h1>
             <div className={styles.Icons}>
-              <SocialIcon network="twitter" url='https://www.facebook.com/'target={"_blank"} />
-              <SocialIcon network="google" url='' target={"_blank"} />
-              <SocialIcon network="instagram"url=''target={"_blank"} />
-              <SocialIcon network="youtube" url=''target={"_blank"}/>
-              <SocialIcon network="facebook" url=''target={"_blank"}/>
+              <SocialIcon bgColor='#0081C9' network="twitter" url='https://www.facebook.com/'target={"_blank"} />
+              <SocialIcon bgColor='#0081C9' network="google" url='' target={"_blank"} />
+              <SocialIcon bgColor='#0081C9' network="instagram"url=''target={"_blank"} />
+              <SocialIcon bgColor='#0081C9' network="youtube" url=''target={"_blank"}/>
+              <SocialIcon bgColor='#0081C9' network="facebook" url=''target={"_blank"}/>
             </div>
           </div>
         </div>
