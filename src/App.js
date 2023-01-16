@@ -6,16 +6,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import About from './pages/About';
-import AutoPlay from './pages/skills';
+import { Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <div>
       <Navbar/>
-      <Hero/>
-      <AutoPlay />
-      <About />
+      <Routes>
+      <Route path="/" element={<Hero/>}/>
+      <Route path="/About"  element={<About/>}/>
+      </Routes>
     </div>
   );
 }

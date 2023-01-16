@@ -16,8 +16,8 @@ const NavbarMenu = () => {
             
           </Nav>
           <Nav>
-            <Nav.Link href="#Home">Home</Nav.Link>
-            <Nav.Link href="#About">About</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/About">About</Nav.Link>
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#deets">Education</Nav.Link>
             <Nav.Link href="#deets">Work</Nav.Link>
