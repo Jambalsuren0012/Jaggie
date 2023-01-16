@@ -21,7 +21,7 @@ const NavbarMenu = () => {
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#deets">Education</Nav.Link>
             <Nav.Link href="#deets">Work</Nav.Link>
-            <Nav.Link href="#deets">Experience</Nav.Link>
+            <Nav.Link href="#deets">Experiences</Nav.Link>
             <Nav.Link href="#deets">Contact</Nav.Link>
             
           </Nav>
